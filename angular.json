@@ -2,7 +2,9 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "admin": "libs/admin",
     "tour": "apps/tour",
-    "tour-e2e": "apps/tour-e2e"
+    "tour-e2e": "apps/tour-e2e",
+    "visitor": "libs/visitor"
   }
 }
